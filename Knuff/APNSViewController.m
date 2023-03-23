@@ -520,7 +520,8 @@
                         }];
   
   [self setShowSandbox:NO animated:NO];
-  
+
+    self.fragariaView.backgroundColor = [NSColor blackColor];
   self.fragariaView.syntaxColoured = YES;
   self.fragariaView.showsLineNumbers = YES;
   self.fragariaView.syntaxDefinitionName = @"JavaScript";
